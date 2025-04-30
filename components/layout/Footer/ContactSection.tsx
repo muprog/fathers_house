@@ -1,9 +1,9 @@
 'use client'
-import Button from '@/common/Button'
+// import Button from '@/common/Button'
 import Image from 'next/image'
 import React from 'react'
 import contactInfo from './contactInfo'
-import Link from 'next/link'
+// import Link from 'next/link'
 import { useAppDispatch, useAppSelector } from '@/store/hooks'
 import { signOut } from '@/store/slices/user'
 import { useRouter } from 'next/navigation'
@@ -38,7 +38,7 @@ function ContactSection() {
         ))}
       </ul>
       <div className='mt-[51px] flex flex-col'>
-        {user ? (
+        {/* {user ? (
           <>
             <p className='font-secondary font-semibold mb-[15px] text-secondary'>
               Logged in as: {user.fname + ' ' + user.lname}
@@ -68,7 +68,7 @@ function ContactSection() {
               </Link>
             </div>
           </>
-        )}
+        )} */}
       </div>
     </div>
   )

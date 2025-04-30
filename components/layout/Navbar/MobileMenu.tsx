@@ -69,29 +69,6 @@ function MobileMenu() {
                   {link.title}
                 </button>
               ))}
-              {user ? (
-                <button
-                  onClick={handleLogout}
-                  className='px-4 py-2 text-left hover:bg-gray-100 text-red-500'
-                >
-                  Log out
-                </button>
-              ) : (
-                <>
-                  <button
-                    onClick={() => handleLinkClick('/auth/login')}
-                    className='px-4 py-2 text-left hover:bg-gray-100'
-                  >
-                    Log in
-                  </button>
-                  <button
-                    onClick={() => handleLinkClick('/auth/register')}
-                    className='px-4 py-2 text-left hover:bg-gray-100'
-                  >
-                    Sign up
-                  </button>
-                </>
-              )}
             </div>
           </div>
         )}

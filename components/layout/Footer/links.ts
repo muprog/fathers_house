@@ -1,11 +1,11 @@
 interface SubLinks {
-  name: string;
-  destination: string;
-  external?: boolean;
+  name: string
+  destination: string
+  external?: boolean
 }
 
 interface Link {
-  heading: { title: string; subLinks: SubLinks[] };
+  heading: { title: string; subLinks: SubLinks[] }
 }
 
 const links: Link[] = [
@@ -22,28 +22,32 @@ const links: Link[] = [
   },
   {
     heading: {
-      title: 'Connect',
-      subLinks: [
-        { name: 'Location', destination: '/church-locations' },
-        { name: "Father's Menu", destination: '/devotional' },
-        {
-          name: 'Get Our App',
-          destination: 'https://play.google.com/store/apps/details?id=com.tfhmobile',
-          external: true,
-        },
-        { name: 'Join Online', destination: '/media' },
-      ],
-    },
-  },
-  {
-    heading: {
-      title: 'Media',
-      subLinks: [
-        { name: 'Join Online', destination: '/media' },
-        { name: 'Sermons', destination: '/resources' },
-      ],
-    },
-  },
-];
+      //   title: 'Connect',
+      //   subLinks: [
+      //     { name: 'Location', destination: '/church-locations' },
+      //     { name: "Father's Menu", destination: '/devotional' },
+      //     {
+      //       name: 'Get Our App',
+      //       destination: 'https://play.google.com/store/apps/details?id=com.tfhmobile',
+      //       external: true,
+      //     },
+      //     { name: 'Join Online', destination: '/media' },
+      //   ],
+      // },
 
-export default links;
+      title: 'Contact',
+      subLinks: [{ name: 'Contact us', destination: '/contact' }],
+    },
+  },
+  // {
+  //   heading: {
+  //     title: 'Media',
+  //     subLinks: [
+  //       { name: 'Join Online', destination: '/media' },
+  //       { name: 'Sermons', destination: '/resources' },
+  //     ],
+  //   },
+  // },
+]
+
+export default links
