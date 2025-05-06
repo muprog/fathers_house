@@ -1,6 +1,6 @@
-import Button from '@/common/Button';
-import Link from 'next/link';
-import React from 'react';
+import Button from '@/common/Button'
+import Link from 'next/link'
+import React from 'react'
 
 function IntroSection() {
   return (
@@ -8,7 +8,7 @@ function IntroSection() {
       <h1 className='text-primary text-2xl lg:text-[35px] max-w-[547px]'>
         Welcome to <br />
         <span className='font-secondary font-bold lg:text-[55px] text-[40px]'>
-          The Father&apos;s House Church
+          The Shalom Mission Church
         </span>
       </h1>
       <p className='lg:text-[28px] text-base font-normal mt-[7px] mb-[18px] lg:mb-[59px]'>
@@ -27,7 +27,7 @@ function IntroSection() {
         </Link>
       </div>
     </div>
-  );
+  )
 }
 
-export default IntroSection;
+export default IntroSection

@@ -13,7 +13,7 @@ const VisionSection = () => {
         <div className='w-full lg:w-1/2 flex justify-center lg:justify-start'>
           <div className='w-full max-w-[500px]'>
             <Image
-              src='/assets/images/about/vision.webp'
+              src='/assets/images/about/three.jpg'
               alt='vision'
               width={500}
               height={500}

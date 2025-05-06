@@ -3,7 +3,7 @@ import Button from '@/common/Button'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import WelcomeImage from '../../assets/images/home/welcome.webp'
+import WelcomeImage from '../../assets/images/home/slider/four.jpg'
 
 const WelcomeSection = () => {
   return (
@@ -15,7 +15,7 @@ const WelcomeSection = () => {
             You&apos;re welcome to worship with us
           </h2>
           <p className='font-normal mb-[9px] text-xl'>
-            As Senior Pastors of The Father&apos;s House, this is an auspicious
+            As Senior Pastors of The Shalom Mission, this is an auspicious
             moment to share with you God&apos;s mandate upon our hearts. We
             believe that you are created for glory. That is why He has ordained
             us at this very hour and time to reach you and welcome you into the

@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import DevotionalImage from '@/assets/images/home/devotional.webp'
+import DevotionalImage from '@/assets/images/home/slider/two.jpg'
 import Image from 'next/image'
 import { DevotionalType } from '@/types/types'
 import { appAxios } from '@/api/axios'

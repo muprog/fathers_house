@@ -1,7 +1,9 @@
 'use client'
 import { StaticImageData } from 'next/image'
-import Giving from '../../../assets/images/home/links/giving.webp'
-import Message from '../../../assets/images/home/links/message.webp'
+// import Giving from '../../../assets/images/home/links/giving.webp'
+// import Message from '../../../assets/images/home/links/message.webp'
+import Giving from '../../../assets/images/home/slider/two.jpg'
+import Message from '../../../assets/images/home/slider/three.jpg'
 
 export interface LinkType {
   image: StaticImageData

@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Logo from '@/assets/brand/logo.png'
+import Logo from '../../../public/logo.png'
 import Image from 'next/image'
 import NavLinks from './NavLinks'
 import Link from 'next/link'

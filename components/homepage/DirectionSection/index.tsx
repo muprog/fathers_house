@@ -12,9 +12,9 @@ const DirectionSection = () => {
     >
       <TextChange texts={serviceTimelines} time={10} />
       <p className='text-lg lg:text-xl font-normal mb-[34px] max-w-[752px] mt-[46px]'>
-        The Father&apos;s House is a place for raising sons for the Kingdom. We
-        would love you to be a part of us. Join in on of our worship services
-        and you&apos;ll be blessed
+        The Shalom Mission is a place for raising sons for the Kingdom. We would
+        love you to be a part of us. Join in on of our worship services and
+        you&apos;ll be blessed
       </p>
       <Link href='/locations'>
         <Button className='!w-[280px] !max-w-full'>Get Direction</Button>
