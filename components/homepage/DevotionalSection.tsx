@@ -78,7 +78,7 @@ const DevotionalSection = () => {
           ) : devotional ? (
             <>
               <h2 className='text-white text-[35px] md:text-[48px] lg:text-[60px] font-bold mb-3'>
-                The Father&apos;s Menu
+                Shalom&apos;s Menu
               </h2>
               <p className='text-secondary font-bold text-lg lg:text-2xl mb-4'>
                 {new Date(devotional.ditto).toLocaleDateString('en-US', {

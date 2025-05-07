@@ -26,7 +26,7 @@ import '@/styles/backgrounds.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "The Father's House",
+  title: 'Shalom Mission Church',
   description: 'Your App Description',
   icons: {
     icon: '/assets/brand/logo.png',

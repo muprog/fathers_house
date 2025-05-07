@@ -10,7 +10,7 @@ function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <Navbar />
-      <main className='bg-[#FFF5F2]'>
+      <main className='bg-blue-100'>
         {children}
         <DirectionSection />
       </main>

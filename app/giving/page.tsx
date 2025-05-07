@@ -7,7 +7,7 @@ const GivingPage = () => {
   return (
     <AppLayout>
       <Header />
-      <div className='giving-bg'>
+      <div className=''>
         <OfflineChannels />
       </div>
     </AppLayout>

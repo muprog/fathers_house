@@ -18,7 +18,7 @@ function HeroSection() {
 
   return (
     <header
-      className={`bg-[#FFF2EE] h-full ${
+      className={`bg-blue-100 h-full ${
         mobileBarOpen
           ? 'lg:h-[calc(100vh-96px-48px)]'
           : 'lg:h-[calc(100vh-96px)]'

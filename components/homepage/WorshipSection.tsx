@@ -17,12 +17,12 @@ const WorshipSection = () => {
   const isYouTubeConfigured = YOUTUBE_API_KEY && YOUTUBE_UPLOAD_KEY
 
   return (
-    <section id='worship' className='message-bg px-primary py-[93px]'>
+    <section id='worship' className=' px-primary py-[93px]'>
       <h2 className='text-primary font-bold text-[30px] lg:text-[40px] text-center font-secondary mb-[11px]'>
         Our Last Worship Experience
       </h2>
       {!isYouTubeConfigured ? (
-        <div className='text-center py-12'>
+        <div className='text-center py-12 bg-blue-300'>
           <p className='text-lg text-gray-600 mb-4'>
             Worship videos are currently unavailable
           </p>

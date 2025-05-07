@@ -26,7 +26,7 @@ const WorshipExperienceSection = ({
         Recent Worship Experience
       </h2>
       {!isYouTubeConfigured ? (
-        <div className='text-center py-12'>
+        <div className='text-center py-12 bg-blue-300'>
           <p className='text-lg text-gray-600 mb-4'>
             Worship videos are currently unavailable
           </p>

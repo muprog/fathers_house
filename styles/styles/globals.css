@@ -26,13 +26,13 @@ body {
   position: relative;
 }
 
-.inputContainer>label {
+.inputContainer > label {
   font-size: 1.02038125rem;
   font-weight: 400;
-  color: #002F72;
+  color: #002f72;
 }
 
-.formContainer>h2 {
+.formContainer > h2 {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 600;
@@ -40,41 +40,41 @@ body {
   /* margin-bottom: 9px; */
 }
 
-.inputContainer>* input,
+.inputContainer > * input,
 textarea {
   padding-block: 16px;
   padding-inline: 12px;
   font-size: 1.02038125rem;
   font-family: 'Poppins', sans-serif;
-  border: 1px solid #0D57BE;
+  border: 1px solid #0d57be;
   border-radius: 5px;
   width: 100%;
-  color: #000
+  color: #000;
 }
 
-.inputContainer>* input:focus,
+.inputContainer > * input:focus,
 textarea:focus {
-  border: 1px solid #002F72 !important;
-  outline: 1px solid #002F72 !important;
+  border: 1px solid #002f72 !important;
+  outline: 1px solid #002f72 !important;
 }
 
-.inputContainer>* input::placeholder,
+.inputContainer > * input::placeholder,
 textarea::placeholder {
-  color: #CFCFCF;
+  color: #cfcfcf;
   font-style: italic;
 }
 
 .inputError {
-  border: 1px solid #F13637 !important;
+  border: 1px solid #f13637 !important;
 }
 
 .error {
-  color: #F13637;
+  color: #f13637;
   font-size: 0.75rem;
 }
 
 .errorText {
-  color: #F13637;
+  color: #f13637;
 }
 
 .line-clamp {
