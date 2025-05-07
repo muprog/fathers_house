@@ -1,6 +1,6 @@
-import React from 'react';
-import contactPageLinks from './contactPageLinks';
-import Link from 'next/link';
+import React from 'react'
+import contactPageLinks from './contactPageLinks'
+import Link from 'next/link'
 
 const ContactLinks = () => {
   return (
@@ -15,7 +15,7 @@ const ContactLinks = () => {
         </Link>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default ContactLinks;
+export default ContactLinks
