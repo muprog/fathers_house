@@ -27,7 +27,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Shalom Mission Church',
-  description: 'Your App Description',
+  description: 'Shalom Mission Church',
   icons: {
     icon: '/assets/brand/logo.png',
   },
