@@ -61,13 +61,10 @@ const DevotionalSection = () => {
   }, [])
 
   return (
-    <section
-      id='devotional'
-      className='px-primary py-[100px] lg:py-[148px] devotional-bg'
-    >
+    <section id='devotional' className='px-primary py-[100px] lg:py-[148px]'>
       <div className='flex items-center justify-center text-center lg:text-start gap-[50px] lg:gap-[81px] flex-wrap lg:flex-nowrap'>
         <Image src={DevotionalImage} alt='Devotional' />
-        <div className='items-center flex flex-col lg:items-start'>
+        {/* <div className='items-center flex flex-col lg:items-start'>
           {loading ? (
             <LoadingIndicator />
           ) : error ? (
@@ -104,6 +101,10 @@ const DevotionalSection = () => {
             </div>
           )}
         </div>
+
+
+
+//sdfasd */}
       </div>
     </section>
   )

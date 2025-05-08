@@ -48,7 +48,8 @@
 }
 
 .about-header-bg {
-  background-image: url(../assets/backgrounds/about-header.webp);
+  /* background-image: url(../assets/backgrounds/about-header.webp); */
+  background-image: url(../assets/images/home/slider/three.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -104,7 +105,7 @@
 }
 
 .giving-header-bg {
-  background-image: url(../assets/backgrounds/giving.webp);
+  background-image: url(../assets/images/home/slider/one.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -132,7 +133,7 @@
 }
 
 .contact-header-bg {
-  background-image: url(../assets/backgrounds/contact.webp);
+  background-image: url(../assets/images/home/slider/four.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

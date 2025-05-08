@@ -12,7 +12,7 @@ const ContactPage = () => {
       <Header />
       <div className='px-primary py-[100px]'>
         <SocialLinkSection />
-        <ContactLinks />
+        {/* <ContactLinks /> */}
         <ContactForm />
         <ChurchLocationSection />
       </div>
