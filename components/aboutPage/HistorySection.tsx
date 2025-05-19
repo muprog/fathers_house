@@ -4,54 +4,38 @@ const HistorySection = () => {
   return (
     <section id='history' className='px-primary mt-[107px] py-12'>
       <div className='max-w-7xl mx-auto'>
-        <h2 className='font-bold text-xl md:text-2xl text-center mb-5'>
-          OUR HISTORY
+        <h2 className='text-center font-bold text-primary text-[30px] md:text-[35px] lg:text-[40px] mb-10 font-secondary'>
+          Our History
         </h2>
-        <p className='text-center font-bold text-primary text-[30px] md:text-[35px] lg:text-[40px] mb-10 font-secondary'>
-          A Journey of Faith and Service
-        </p>
         <div className='flex flex-col gap-8 md:text-lg w-full bg-white p-8 rounded-lg shadow-md'>
           <p className='leading-relaxed'>
-            At Shalom Mission Center Church, our story began with a simple yet
-            powerful vision: to bring faith, hope, and support to those who need
-            it the most. Founded by a group of passionate individuals dedicated
-            to serving their community, our church has always been rooted in the
-            belief that every person deserves compassion, dignity, and the
-            opportunity for a better life.
+            The Shalom Mission Center Christian Church is based on the word of
+            God, reaching the Gospel of Christ to all people, unchanged in the
+            rapidly changing world. Our missionary vision and purpose is to
+            spread the kingdom of God, fully realizing our potential for the
+            great mission the Lord gave to the Christian Church (Matt. 28:18-20,
+            Mark 16:15-20, Acts 1:8).
           </p>
           <p className='leading-relaxed'>
-            From our humble beginnings, we have grown into a beacon of hope for
-            the homeless, families in crisis, and individuals seeking spiritual
-            guidance. Over the years, our church has been at the forefront of
-            addressing the needs of the marginalized, providing shelter, meals,
-            counseling, and a safe place for those in need.
+            This church has clearly set out its vision, goals, and values as
+            well as its rules of conduct to fulfill all the trust it has taken
+            to spread the kingdom of God with the previous Pentecostal churches.
           </p>
-          <p className='leading-relaxed'>
-            Through community outreach programs, we have built strong
-            relationships with local organizations, empowering us to extend our
-            reach and impact. Our mission has always been to serve with love,
-            grounded in faith, and guided by a commitment to making a real
-            difference.
-          </p>
-          <p className='leading-relaxed'>
-            As we continue to grow, we remain dedicated to the values that have
-            shaped our church: compassion, service, and the belief that
-            together, we can bring light to the darkest places. Our history is
-            not just about the past; it is about the ongoing journey of
-            transforming lives through faith and action.
-          </p>
-          <p className='leading-relaxed'>
-            The maiden service of The Father&apos;s House was a crossover
-            service on December 31st, 2003 held at 28, Bola Oshikoya Street,
-            Alagbole. The service attracted all those who had heard about the
-            new spiritual initiative and made enquiries to know its location. A
-            total of 58 worshippers (adult and children) attended the inaugural
-            service.
-          </p>
-          <p className='leading-relaxed'>
-            Join us in our mission, and be a part of the legacy of hope and
-            healing that continues to grow every day.
-          </p>
+          <div className='mt-8 p-6 bg-gray-50 rounded-lg'>
+            <h3 className='text-xl font-bold text-primary mb-4'>
+              Church Location
+            </h3>
+            <p className='mb-2'>4621 Marconbe Way NE</p>
+            <p className='mb-2'>Calgary, AB T2A 3G6</p>
+            <p>Phone: (403) 402-8362</p>
+          </div>
+          <div className='mt-4 p-6 bg-gray-50 rounded-lg'>
+            <h3 className='text-xl font-bold text-primary mb-4'>Founders</h3>
+            <p>
+              Father of the Vision: Ajab Berhanu Sultesa and Ayinalem Kebede
+              Gondel
+            </p>
+          </div>
         </div>
       </div>
     </section>

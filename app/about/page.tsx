@@ -5,6 +5,7 @@ import StatementOfFaithSection from '@/components/aboutPage/StatementOfFaithSect
 import VisionSection from '@/components/aboutPage/VisionSection'
 import AppLayout from '@/components/layout/AppLayout'
 import React from 'react'
+import BeliefsSection from '@/components/aboutPage/BeliefsSection'
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
       <VisionSection />
       <StatementOfFaithSection />
       <PastorsSection />
+      <BeliefsSection />
     </AppLayout>
   )
 }

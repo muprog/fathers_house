@@ -26,33 +26,122 @@ const VisionSection = () => {
         <div className='w-full lg:w-1/2 flex flex-col gap-[56px] text-[#00050D]'>
           {/* Vision */}
           <div className='flex flex-col gap-1 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'>
-            <p className='font-lg font-secondary font-bold uppercase text-primary'>
+            <p className='font-lg font-secondary font-bold uppercase text-primary mb-4'>
               Vision
             </p>
-            <p className='text-2xl'>...Raising sons</p>
+            <ul className='list-disc pl-5 space-y-2'>
+              <li>
+                To see who are converted to the gospel of the Lord Jesus Christ
+                at home and abroad and sanctified by the Holy Spirit.
+              </li>
+              <li>
+                To see the Christian church planted and grown to spread the
+                kingdom of God at home and abroad.
+              </li>
+              <li>
+                To provide support to orphans at home and abroad who do not
+                attend school and to get them into school, as well as to help
+                poor families to see their lives improved and independent.
+              </li>
+              <li>
+                To see students who benefit the country and the church by
+                establishing quality comprehensive schools at home and abroad.
+              </li>
+            </ul>
+          </div>
+
+          {/* Purposes */}
+          <div className='flex flex-col gap-1 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'>
+            <p className='font-lg font-secondary font-bold uppercase text-primary mb-4'>
+              Purposes
+            </p>
+            <ul className='list-decimal pl-5 space-y-2'>
+              <li>
+                Preaching the Gospel of Our Lord Jesus Christ (Mark 16:15).
+              </li>
+              <li>
+                Disciple those who believe in the Gospel who are baptized in the
+                Holy Spirit (Matt 28:19).
+              </li>
+              <li>
+                Performing the work that enables holistic service (James
+                1:26-27).
+              </li>
+              <li>
+                Maintain the foundation of faith and unity of the Church (Eph
+                4:3).
+              </li>
+            </ul>
           </div>
 
           {/* Core Values */}
           <div className='flex flex-col gap-1 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'>
-            <p className='font-lg font-secondary font-bold uppercase text-primary'>
-              core values
+            <p className='font-lg font-secondary font-bold uppercase text-primary mb-4'>
+              Core Values
             </p>
-            <p className='text-2xl'>
-              Love, Relationship, Responsibility & integrity
-            </p>
-          </div>
-
-          {/* Purpose */}
-          <div className='flex flex-col gap-1 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300'>
-            <p className='font-lg font-secondary font-bold uppercase text-primary'>
-              our purpose
-            </p>
-            <p className='text-2xl'>
-              Through Evangelism, we would bring people into membership. By
-              edification, they would come to maturity. Shall be equipped for
-              ministry through training adequately exercised for mission
-              opportunities and constantly exalt the Lord for the opportunity.
-            </p>
+            <ul className='list-decimal pl-5 space-y-2'>
+              <li>
+                <strong>Love:</strong> God is love and everything done without
+                true love is in vain. We believe all believers should have love
+                for God, friends, and even those who hate Him.
+              </li>
+              <li>
+                <strong>Unity:</strong> Without unity of spirit and heart, all
+                worship and ministry is fruitless. We believe in and teach the
+                unity of believers.
+              </li>
+              <li>
+                <strong>Holiness:</strong> Holiness is a sign of our separation
+                to God. Without holiness, it is impossible to see and please
+                God.
+              </li>
+              <li>
+                <strong>Holistic Service:</strong> Serving to meet human body,
+                social, and spiritual needs.
+              </li>
+              <li>
+                <strong>Pentecostalism:</strong> We accept that the first and
+                most obvious sign of baptism in the Holy Spirit is speaking in
+                new tongues.
+              </li>
+              <li>
+                <strong>Mutual Help:</strong> We believe in relation with other
+                communities and spread the Gospel of Christ by sharing and
+                supporting each other.
+              </li>
+              <li>
+                <strong>Fasting and Praying:</strong> We place great value on
+                fasting and praying as essential spiritual disciplines.
+              </li>
+              <li>
+                <strong>Transparency:</strong> We believe every action in the
+                church should be revealed and open.
+              </li>
+              <li>
+                <strong>Servant hood:</strong> We believe every member should
+                have a heart of servant, following Christ's example.
+              </li>
+              <li>
+                <strong>Honesty:</strong> We believe in biblical honesty, right
+                attitudes, and Christian ethics.
+              </li>
+              <li>
+                <strong>Accountability:</strong> We manifest responsibility
+                through quality work and communication at all levels.
+              </li>
+              <li>
+                <strong>Righteousness and Justice:</strong> We work for
+                righteousness and justice to prevail for all mankind.
+              </li>
+              <li>
+                <strong>Believing in Christ:</strong> We believe that Jesus
+                Christ is the Savior of the world.
+              </li>
+              <li>
+                <strong>Proper Biblical Teaching:</strong> Our teaching is based
+                only on the inspired writings of God.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
