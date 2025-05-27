@@ -508,7 +508,7 @@ const OfflineChannels = () => {
       </div>
 
       {/* 💳 Offline Channels */}
-      <ul className='flex flex-col gap-[66px] items-center w-full'>
+      {/* <ul className='flex flex-col gap-[66px] items-center w-full'>
         {offlineChannels.map((item, index) => (
           <li
             key={index}
@@ -541,7 +541,7 @@ const OfflineChannels = () => {
             </div>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   )
 }
